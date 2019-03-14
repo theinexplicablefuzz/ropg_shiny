@@ -6,8 +6,12 @@
 #
 #    http://shiny.rstudio.com/
 #
+if (!require("pacman")) install.packages("pacman")
+library(pacman)
+p_load(shiny)
+source("config.R")
+config <- configure()
 
-library(shiny)
 source("ui.R")
 source("server.R")
 

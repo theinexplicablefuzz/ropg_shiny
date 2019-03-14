@@ -1,0 +1,5 @@
+"esql_server"
+"esql_db"
+"esql_password"
+"esql_url"
+"esql_API_key"
