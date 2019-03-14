@@ -9,7 +9,7 @@ There are a few things you'll need:
 
   1. A working laptop with wifi
   2. A recent version of R and RStudio. To learn more, see [Getting Started with R](https://support.rstudio.com/hc/en-us/articles/201141096-Getting-Started-with-R)
-
+  3. the Shiny package: `install.packages(shiny)`
 
 ### Deployment
 There are three ways to run the this app.
