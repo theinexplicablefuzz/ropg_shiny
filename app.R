@@ -8,9 +8,12 @@
 #
 if (!require("pacman")) install.packages("pacman")
 library(pacman)
-p_load(shiny)
-source("config.R")
-config <- configure()
+p_load(
+  shiny,
+  data.table,
+  DT,
+  markdown,
+  magrittr)
 
 source("ui.R")
 source("server.R")

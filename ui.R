@@ -1,23 +1,18 @@
 
-# Define UI for application that draws a histogram
 ui <- fluidPage(
-  
-  # Application title
-  titlePanel("Old Faithful Geyser Data"),
-  
-  # Sidebar with a slider input for number of bins 
-  sidebarLayout(
-    sidebarPanel(
-      sliderInput("bins",
-                  "Number of bins:",
-                  min = 1,
-                  max = 50,
-                  value = 30)
+  titlePanel("ROPG"), # Application title
+  sidebarPanel(
+    wellPanel(textInput("username", "Username"),
+              passwordInput("passkey", "Password"),
+              actionButton("retrieve_user", "Log in"),
+              textOutput("messages")
+              )
     ),
-    
-    # Show a plot of the generated distribution
-    mainPanel(
-      plotOutput("distPlot")
+  mainPanel(
+    fluidPage(
+      tabsetPanel( id = "tabs",
+        tabPanel("How to play",includeMarkdown('characters_panel.md'))
+        )
+      )
     )
   )
-)
