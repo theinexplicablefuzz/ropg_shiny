@@ -14,12 +14,13 @@
 -	Choose 2 potentials at rank 3 or higher to be favored potentials
 -	Each ability begins at rank 1
 -	For each ability, gain 1 rank for each associated favored potential
+- Choose one knack, one flaw, and one goal
 -	Gain 10 experience
 
 ### Declaring Actions
 1. say what you want your character to do (e.g. climb the mountain, persuade the guard,)
 2. work with the ST to determine the appropriate ability and any relevant knacks.
-3. If your ability is high enough, you succeed. Otherwise, roll a six-sided die and if the roll is less than the appropriate ability, you succeed. if the roll is greater, you fail and conflict may begin.
+3. While not in conflict, If your ability is high enough, you succeed. Otherwise, roll a six-sided die and if the roll is less than the appropriate ability, you succeed. if the roll is greater, you fail and conflict begins if it has not already.
 
 ### Action Difficulty
 Occasionally the Narrator will modify the difficulty, temporarily reducing or increasing the character's effective ability rank by a number. Sometimes a task is beyond the ability of the character attempting it. In these cases, the character may roll as normal, but on a roll of a 1 they must reroll, reducing the task difficulty by 2. Repeat until the character succeeds or fails to roll a 1.
@@ -51,11 +52,46 @@ The retrieve action is used to draw weapons, pick up or interact with a nearby i
 ##### Focus
 Focus allows you to filter out distractions and focus on the task at hand. Make a focus ability check. If you succeed, you gain focus. While you have focus any time you make a check related to you attack, move, assess, or retrieve action, you can roll twice and take the best result. If you take a wound or make a reflex check, you must suceed on a focus check or lose focus.
 
-### Wounds and Trauma
+### Stunts, Rituals, and Knacks
+
+#### Stunts
+Sometimes a character may want to combine multiple effects into a single spell or group of actions. To perform a stunt, the character must state how many different effects they are attempting to combine to determine the number of successes required. All rolls must be successul in order to pull of a stunt. The narrator determines the ordering of effects as well as what happens with a failed stunt.
+
+- 1st effect: 1 success
+- 2nd effect: 2 successes
+- 3rd effect: 3 successes
+
+#### Rituals
+rituals are like stunts except that they can take place over a long period of time before the final effect takes place. Rituals require a number of effects to succeed with each effect taking one action. If the character performing the ritual does not gain at least one success on each turn, the ritual fails. if the character fails any roll to perform a ritual, the ritual fails. Stunts can be used to hasten rituals following stunt rules. If a ritual fails, the narrator determines the outcome.
+
+#### Knacks & flaws
+Knacks represent a character's special talents or skills that manifest under certain conditions. If a character has a knack, then they automatically succeed on related checks as long as their effective ability rank would be 3 or greater. To gain a knack, the character pays an experience cost to describe what their character learned, what conditions they require, and where they learned it from. If a knack becomes unbalancing, the narrator may impose flaws or request additional experience. Stunts can be made into knacks at a cost of 1 experience per success required, and the total number of successes required to perform a stunt can be reduced by relevant knacks. 
+
+### Gear
+Gear is either given by the storyteller through play or purchased using experience. Some gear provides the possessing character with a knack that is typically dependent on posession of the item.
+
+#### Weapons, Armor, and shields
+weapons and armor have two primary characteristics - weight and quality. Weight determines how many ranks in atheletics are required to use the item - to use an item that is too heavy, the character must succeed on a athletics roll before making any attempts with the item. Weight is used to determine a weapon's secondary characteristics - coverage and density for armor, mass and penetration for weapons. 
+
+Quality increases the effective weight of a piece of gear allowing a light, but high quality piece of gear to provide the same benefits as heavier normal quality gear. Improvised gear is typically -1 quality, causing it to be less effective for it's weight. If a piece of gear would be reduced to quality -2, it breaks into two or more improvised weapons
+
+##### Armor
+Armors divide effective weight among density and coverage
+
+###### Shields
+Shields are a special type of armor that can be used as part of a contest action to apply the density of the shield to the attack. to use the shield, succeed on a reflex ability check. Shields
+
+##### Weapons
+Weapons divide weight among mass and penetration. Mass is added to wounds on a successful hit.
+
+### Vitality, Wounds, and Trauma
 Whenever a character overexerts or fails to resist an attack, they take wounds which may impair them short term or even result in lasting trauma. 
 
+#### Vitality
+Each vitality ability has a specific wound type associated with it. When a character would be dealt one or more wounds, they have a chance to resist each wound by making a successful vitality ability check of the type associated with the attack. For example, if a character would take 2 intellect wounds from a terror attack, they may make two resilience checks, one for each wound. each success reduces the total number of wounds dealt by the attack by one.
+
 #### Wounds
-Each vitality ability has a specific wound type associated with it, and a character can absorb a number of wounds equal to the associated ability. When a character has taken wounds equal to the protecting ability they must roll twice and take the worst result for all check involving the associated potential. Once Injury, or Coma would exceed the associated ability, the character blacks out and goes under Narrator control. If Erosion would exceed the invigoration, the character suffers burnout and is unable to use aura abilities for a period. Fatigue, Anxiety, and Madness operate differently – if the would exceed the associated ability, the character begins taking other wounds instead (Injury, Madness & Coma, and Anxiety & Coma respectively). 
+A character can absorb a number of wounds equal to the associated ability. When a character has taken wounds equal to the protecting ability they must roll twice and take the worst result for all check involving the associated potential. Once Injury, or Coma would exceed the associated ability, the character blacks out and goes under Narrator control. If Erosion would exceed the invigoration, the character suffers burnout and is unable to use aura abilities for a period. Fatigue, Anxiety, and Madness operate differently – if the would exceed the associated ability, the character begins taking other wounds instead (Injury, Madness & Coma, and Anxiety & Coma respectively). 
 
 | Ability      | Potential  | Wound   | Further Damage |
 |--------------|:-----------|:--------|:---------------|
@@ -117,6 +153,10 @@ Each ability is composed of exactly two potentials and no ability can be raised 
 | Resilience    | Intellect, Vitality	 | Resist terror and madness                             |
 | Transmutation | Aura, Physique       | Manipulate matter and energy                          |
 
+
+### Experience
+All characters begin with 10 experience which can be used to improve abilities, purchase knacks, overcome flaws, and invest in goals. at the end of each session, characters gain 1 experience. Additional experience can be gained for accomplishing goals
+
 ## Advice for Narrators
 
 ### Thematic guidance
@@ -126,7 +166,7 @@ Each ability is composed of exactly two potentials and no ability can be raised 
 - human scale system
 
 ### Aura Backlash
-All magic that is not a knack requires a successful Aura ability roll. Unlike other ability checks, failed aura checks result in a backlash, with the summoned magical energies running amok or rebounding on the caster - the narrator should feel free to use failed magic rolls to introduce unexpected effects, create story hooks, or inflict erosion damage on the caster. Powerful magic should be more difficult to perform, with particulary powerful magic requiring multiple successes.
+Unlike other ability checks, failed aura checks result in a backlash, with the summoned magical energies running amok or rebounding on the caster - the narrator should feel free to use failed magic rolls to introduce unexpected effects, create story hooks, or inflict erosion damage on the caster. Powerful magic should be more difficult to perform, with particulary powerful magic requiring multiple successes.
 
 ### Customizing Realms
 
@@ -137,3 +177,5 @@ If characters somehow transition to a lower magic environment, they find that th
 
 #### Augmented magic realms
 In addition to low magic, some realms have augmented magic. these places are inherently unstable with the slightest hint of magical will sending cascading effects throughout the realm. Characters in these areas will need to be on guard or else these chaotic planes will warp them mind body and soul. In addition, the magical energies gradually wear upon the soul of the characters, inflicting erosion damage as their auras wear and fray at the edges.
+
+### Guaranteeing Safe play
